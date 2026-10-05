@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio de Maximiliano Duarte, Backend Developer especializado en Python y FastAPI." />
+    <title>Maximiliano Duarte — Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-header__name" href="#contenido">Maximiliano Duarte</a>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="#proyectos">Proyectos</a>
+          <a href="#capacidades">Capacidades</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section" aria-labelledby="presentacion-titulo">
+        <div class="container hero__inner">
+          <p class="eyebrow">Maximiliano Duarte</p>
+          <h1 id="presentacion-titulo">Backend Developer</h1>
+          <p class="hero__specialty">Python / FastAPI</p>
+          <p class="hero__description">Desarrollo APIs y aplicaciones web con Python, FastAPI y PostgreSQL, con foco en arquitectura, reglas de negocio y sistemas completos.</p>
+          <div class="hero__actions">
+            <a class="action action--primary" href="mailto:duartemaxipr@gmail.com">Contactarme</a>
+            <a class="action action--secondary" href="#proyectos">Ver proyectos</a>
+          </div>
+          <div class="professional-links">
+            <a class="professional-link" href="https://github.com/duartemaxigh-glitch" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a>
+            <a class="professional-link" href="https://www.linkedin.com/in/maxiduarte" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span></a>
+            <a class="professional-link" href="./cv/CV_Maximiliano_Duarte_ES.pdf" target="_blank" rel="noopener noreferrer"><span>CV</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ruled" id="proyectos" aria-labelledby="destacado-titulo">
+        <div class="container">
+          <article class="featured-project" aria-labelledby="destacado-titulo">
+            <div class="featured-project__intro">
+              <p class="featured-project__eyebrow">Proyecto destacado</p>
+              <h2 id="destacado-titulo">Sistema de gestión para Drugstore</h2>
+              <p class="project-description">Aplicación web para administrar inventario, ventas, compras, clientes, proveedores y reportes.</p>
+            </div>
+            <div class="featured-project__preview">
+              <img src="assets/drugstore-dashboard.png" alt="Dashboard del sistema de gestión para Drugstore" width="1342" height="752" loading="lazy" decoding="async" />
+            </div>
+            <div class="featured-project__details">
+              <h3>Aspectos técnicos destacados</h3>
+              <ul class="detail-list">
+                <li>Arquitectura por capas</li>
+                <li>Transacciones para ventas, compras y stock</li>
+                <li>Autenticación JWT y autorización por roles</li>
+              </ul>
+            </div>
+            <p class="featured-project__technologies"><span>Tecnologías:</span> Python · FastAPI · PostgreSQL · SQLAlchemy · Next.js</p>
+            <nav class="featured-project__links" aria-label="Enlaces del proyecto Drugstore">
+              <a class="featured-project__demo" href="https://drugstore-demo-frontend.vercel.app/login" target="_blank" rel="noopener noreferrer">Ver demo <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/duartemaxigh-glitch/drugstore-demo-frontend" target="_blank" rel="noopener noreferrer">Frontend <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/duartemaxigh-glitch/drugstore-demo-backend" target="_blank" rel="noopener noreferrer">Backend <span aria-hidden="true">↗</span></a>
+              <a href="https://drugstore-demo-backend.onrender.com/docs" target="_blank" rel="noopener noreferrer">Swagger <span aria-hidden="true">↗</span></a>
+            </nav>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--ruled other-projects-section" aria-labelledby="otros-proyectos-titulo">
+        <div class="container">
+          <header class="section-heading">
+            <h2 id="otros-proyectos-titulo">Otros proyectos</h2>
+          </header>
+          <div class="other-projects">
+            <article class="secondary-project" aria-labelledby="servicio-titulo">
+              <div class="secondary-project__preview">
+                <img src="assets/repair-management.png" alt="Vista del sistema de gestión de reparaciones de celulares" width="1346" height="751" loading="lazy" decoding="async" />
+              </div>
+              <div class="secondary-project__content">
+                <h3 id="servicio-titulo">Sistema de gestión para servicio técnico de celulares</h3>
+                <p>Aplicación para registrar clientes, dispositivos y órdenes de reparación, realizar búsquedas y controlar el progreso de cada trabajo.</p>
+                <ul class="detail-list">
+                  <li>Modelado de entidades y relaciones</li>
+                  <li>Reglas de negocio</li>
+                  <li>Flujo controlado de estados</li>
+                </ul>
+                <p class="project-technologies"><span>Tecnologías:</span> Python · FastAPI · SQLAlchemy · PostgreSQL · Next.js</p>
+                <nav class="secondary-project__links" aria-label="Enlaces del proyecto de servicio técnico">
+                  <a class="secondary-project__demo" href="https://repair-management-frontend-iota.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demo <span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/duartemaxigh-glitch/repair-management-frontend" target="_blank" rel="noopener noreferrer">Frontend <span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/duartemaxigh-glitch/repair-management-demo" target="_blank" rel="noopener noreferrer">Backend <span aria-hidden="true">↗</span></a>
+                  <a href="https://repair-management-demo.onrender.com/docs" target="_blank" rel="noopener noreferrer">Swagger <span aria-hidden="true">↗</span></a>
+                </nav>
+              </div>
+            </article>
+            <article class="secondary-project" aria-labelledby="esquina-titulo">
+              <div class="secondary-project__preview">
+                <img src="assets/la-esquina.png" alt="Página principal del sitio demostrativo La Esquina" width="1335" height="748" loading="lazy" decoding="async" />
+              </div>
+              <div class="secondary-project__content">
+                <h3 id="esquina-titulo">La Esquina</h3>
+                <p>Sitio web comercial demostrativo para una rotisería ficticia.</p>
+                <ul class="detail-list">
+                  <li>Proceso sistemático de UX/UI</li>
+                  <li>Design system responsive</li>
+                  <li>Implementación asistida por IA</li>
+                </ul>
+                <p class="project-technologies"><span>Tecnologías:</span> Next.js · React · Tailwind CSS</p>
+                <nav class="secondary-project__links" aria-label="Enlaces del proyecto La Esquina">
+                  <a class="secondary-project__demo" href="https://la-esquina-web-theta.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demo <span aria-hidden="true">↗</span></a>
+                  <a href="https://github.com/duartemaxigh-glitch/la-esquina-web" target="_blank" rel="noopener noreferrer">Repositorio <span aria-hidden="true">↗</span></a>
+                </nav>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ruled" id="capacidades" aria-labelledby="capacidades-titulo">
+        <div class="container">
+          <header class="section-heading">
+            <h2 id="capacidades-titulo">Capacidades técnicas</h2>
+          </header>
+          <div class="capabilities">
+            <div class="capability-group">
+              <h3>Backend</h3>
+              <p>Python · FastAPI · APIs REST · Pydantic · autenticación y autorización · manejo de errores</p>
+            </div>
+            <div class="capability-group">
+              <h3>Datos y persistencia</h3>
+              <p>PostgreSQL · SQL · SQLAlchemy · Alembic · transacciones</p>
+            </div>
+            <div class="capability-group">
+              <h3>Diseño de aplicaciones</h3>
+              <p>arquitectura por capas · Service / Repository · reglas de negocio · Unit of Work · modelado relacional</p>
+            </div>
+            <div class="capability-group">
+              <h3>Frontend complementario</h3>
+              <p>React · Next.js · Tailwind CSS</p>
+            </div>
+            <div class="capability-group">
+              <h3>Herramientas</h3>
+              <p>Git · GitHub</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ruled" id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+        <div class="container about-layout">
+          <div class="about-main">
+            <header class="section-heading">
+              <h2 id="sobre-mi-titulo">Sobre mí</h2>
+            </header>
+            <p>Estoy cursando el último año de la Tecnicatura en Desarrollo de Software y mi foco principal está en el desarrollo Backend, especialmente con Python y FastAPI.</p>
+            <p>Me interesa construir APIs y sistemas con reglas de negocio claras, persistencia relacional y responsabilidades bien separadas. Actualmente busco mi primera oportunidad profesional en desarrollo de software para aplicar lo que vengo construyendo en proyectos y seguir creciendo dentro de un equipo.</p>
+            <div class="about-cv-action">
+              <a class="action action--secondary about-cv" href="./cv/CV_Maximiliano_Duarte_ES.pdf" target="_blank" rel="noopener noreferrer">Ver CV</a>
+            </div>
+          </div>
+          <div class="about-meta">
+            <dl>
+              <div class="about-meta__item">
+                <dt>Formación</dt>
+                <dd>Tecnicatura en Desarrollo de Software · último año</dd>
+              </div>
+              <div class="about-meta__item">
+                <dt>Enfoque</dt>
+                <dd>Backend · Python / FastAPI</dd>
+              </div>
+              <div class="about-meta__item">
+                <dt>Objetivo</dt>
+                <dd>Primera oportunidad profesional en desarrollo de software</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--ruled contact" id="contacto" aria-labelledby="contacto-titulo">
+        <div class="container narrow-section contact__surface">
+          <header class="section-heading">
+            <h2 id="contacto-titulo">Contacto</h2>
+          </header>
+          <p>Si mi perfil puede encajar en una oportunidad, podés contactarme directamente.</p>
+          <div class="contact__actions">
+            <a class="action action--primary contact__cta" href="mailto:duartemaxipr@gmail.com">Contactarme</a>
+            <div class="contact__secondary">
+              <a href="https://www.linkedin.com/in/maxiduarte" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/duartemaxigh-glitch" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
